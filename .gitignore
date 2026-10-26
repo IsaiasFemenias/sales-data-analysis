@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and processed data
+data/raw/
+data/processed/
+
+# Generated outputs
+outputs/reports/
+outputs/figures/
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/*.png
+
+# Local configuration
+.env
+.vscode/
