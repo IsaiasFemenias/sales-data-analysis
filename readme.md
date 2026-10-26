@@ -52,7 +52,7 @@ sales-data-analysis/
 
 How to Run
 1. Clone the repository
-git clone https://github.com/if0001/sales-data-analysis
+git clone https://github.com/IsaiasFemenias/sales-data-analysis
 cd sales-data-analysis
 
 2. Install dependencies
