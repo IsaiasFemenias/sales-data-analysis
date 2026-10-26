@@ -6,26 +6,28 @@ The goal is to demonstrate practical skills in data processing, data cleaning, e
 
 My Objectives
 
--Assess data quality and identify potential inconsistencies.
--Calculate key sales and transaction metrics.
--Analyze monthly sales trends.
--Identify top-performing products, categories, and stores.
--Explore transaction types and payment methods.
--Summarize customer purchasing activity.
--Communicate results through clear, informative visualizations.
+- Assess data quality and identify potential inconsistencies.
+- Calculate key sales and transaction metrics.
+- Analyze monthly sales trends.
+- Identify top-performing products, categories, and stores.
+- Explore transaction types and payment methods.
+- Summarize customer purchasing activity.
+- Communicate results through clear, informative visualizations.
 
 Tools used
 
--Python
--pandas
--NumPy
--Matplotlib
--Seaborn
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
 Source
 
 This project uses the "Global Fashion Retail Stores Dataset" (https://www.kaggle.com/datasets/ricgomes/global-fashion-retail-stores-dataset), published on Kaggle by Ric. G.
+
 The dataset includes transaction records and supporting information about customers, products, stores, employees, and discounts.
+
 The original CSV files are expected to be placed in "data/raw/". For data privacy, repository size, and distribution considerations, the raw dataset files are not included in this repository.
 
 Project Structure
@@ -50,7 +52,7 @@ sales-data-analysis/
 
 How to Run
 1. Clone the repository
-git clone <repolink>
+git clone https://github.com/if0001/sales-data-analysis
 cd sales-data-analysis
 
 2. Install dependencies
@@ -66,20 +68,22 @@ python -m src.main
 The script processes transaction data in chunks and generates summary reports and charts in the "outputs/" directory.
 
 Final Outputs
+
 The analysis made generates CSV reports covering:
 
--Overall sales summaries by currency
--Monthly sales trends
--Product performance
--Store performance
--Payment methods
--Transaction types
--Customer-level metrics
--Data quality checks by processing chunk
+- Overall sales summaries by currency
+- Monthly sales trends
+- Product performance
+- Store performance
+- Payment methods
+- Transaction types
+- Customer-level metrics
+- Data quality checks by processing chunk
 
 It also generates charts showing monthly recorded amounts, top products, category performance, store performance, and transaction types.
 
 Scope
+
 This is an independent portfolio project intended to demonstrate practical data analysis skills. The findings describe the dataset analyzed and should not be interpreted as a representation of current retail market conditions or as a guarantee of future performance.
 Amounts are analyzed separately by currency and should not be combined without a suitable currency conversion method. Sales and returns should also be interpreted in the context of the dataset's transaction definitions.
 
